@@ -79,6 +79,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void click3(View v)
     {
-        tv3.setText("" + sb.getProgress());
+        tv3.setText(String.valueOf(sb.getProgress()));
+    }
+    public void click4(View v)
+    {
+        sb.setProgress(30);
     }
 }
